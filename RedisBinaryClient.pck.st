@@ -1,8 +1,8 @@
-'From Cuis 4.2 of 25 July 2013 [latest update: #2093] on 29 November 2014 at 10:35:14.542825 pm'!
+'From Cuis 4.2 of 25 July 2013 [latest update: #2093] on 25 December 2014 at 8:47:35.261488 pm'!
 'Description Please enter a description for this package'!
-!provides: 'RedisBinaryClient' 1 2!
-!requires: 'SqueakCompatibility' 1 6 nil!
+!provides: 'RedisBinaryClient' 1 3!
 !requires: 'Network-Kernel' 1 2 nil!
+!requires: 'SqueakCompatibility' 1 7 nil!
 !classDefinition: #SSSRedisError category: #RedisBinaryClient!
 Error subclass: #SSSRedisError
 	instanceVariableNames: ''
